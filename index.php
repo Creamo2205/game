@@ -54,7 +54,6 @@
         $arrayPostData['messages'][1]['stickerId'] = "106";
         replyMsg($arrayHeader,$arrayPostData);
     }
- $message = $arrayJson['events'][0]['message']['text'];
 #ตัวอย่าง Message Type "Text"
     else {
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
