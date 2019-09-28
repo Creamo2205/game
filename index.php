@@ -56,7 +56,7 @@
     }
  $message = $arrayJson['events'][0]['message']['text'];
 #ตัวอย่าง Message Type "Text"
-    else($message == $message ){
+    else {
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['type'] = "text";
         $arrayPostData['messages'][0]['text'] = "?";
